@@ -28,7 +28,7 @@ Download the datasets from the official links.
 |        **Dataset**        |                  **Link**                   | 
 |:-------------------------:|:-------------------------------------------:| 
 |       **Skit-S2I**        |           `https://github.com/skit-ai/speech-to-intent-dataset`           | 
-|       **zenodo**        |           `https://github.com/RiTA-nlp/ITALIC/`           | 
+|       **ITALIC**        |           `https://github.com/RiTA-nlp/ITALIC/`           | 
 
 ## How to Run
 You can run the demo script in the directory by the following code.
