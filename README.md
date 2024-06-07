@@ -1,7 +1,7 @@
 # Domain-Aware Data Selection for Speech Classification via Meta-Reweighting
 
 This is the code repository for Domain-Aware Data Selection for Speech Classification via Meta-Reweighting.
-This includes the implementation of DOREME (**DO**main-Awa**RE** Data Selection for Speech Classification via **ME**ta-Reweighting)
+This includes the implementation of DoReMe (**Do**main-Awa**Re** Data Selection for Speech Classification via **Me**ta-Reweighting)
 our novel approach for the speech classification.
 
 ## Abstract
@@ -11,10 +11,10 @@ However, previous data selection methods for utilizing the source instances enco
 In this work, we propose DoReMe, a domain-aware data selection method for accurate speech classification on a target domain.
 The key idea is to softly select source instances by dynamically assigning important scores to each instance based on two similarities: instance-scores and domain-scores.
 Extensive experiments show that DoReMe achieves the best classification performance.
+
 ## Requirements
 
 We recommend using the following versions of packages:
-###This Code is built for pytorch GPU version. we highly recommend you to install pytorch for the GPU version!
  - pytorch==1.13.1
  - tqdm==4.66.2
  - pandas==2.0.3
@@ -22,12 +22,13 @@ We recommend using the following versions of packages:
  - scikit-learn==1.3.2
 
 ## Data Overview
-The datasets are available at (https://drive.google.com/drive/folders/1FlIKRBzJzapUU2PfZgqI8zNlR0e_ALiJ?usp=drive_link).
+We use two datasets.
+Download the datasets from the official links.
 
-|        **Dataset**        |                  **Path**                   | 
+|        **Dataset**        |                  **Link**                   | 
 |:-------------------------:|:-------------------------------------------:| 
-|       **Speech-to-intent**        |           `speech-to-intent/`           | 
-|       **zenodo**        |           `zenodo/`           | 
+|       **Skit-S2I**        |           `https://github.com/skit-ai/speech-to-intent-dataset`           | 
+|       **zenodo**        |           `https://github.com/RiTA-nlp/ITALIC/`           | 
 
 ## How to Run
 You can run the demo script in the directory by the following code.
