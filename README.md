@@ -35,3 +35,16 @@ You can run the demo script in the directory by the following code.
 ```
 python main.py
 ```
+
+## Reference
+
+If you use this code, please cite the following papers.
+
+```
+@inproceedings{Kim24DoReMe,
+  author    = {Junghun Kim, Ka Hyun Park, Hoyoung Yoon, and U Kang},
+  title     = {Domain-Aware Data Selection for Speech Classification via Meta-Reweighting},
+  booktitle = {Interspeech},
+  year      = {2024}
+}
+```
