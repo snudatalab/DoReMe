@@ -42,7 +42,7 @@ If you use this code, please cite the following papers.
 
 ```
 @inproceedings{Kim24DoReMe,
-  author    = {Junghun Kim, Ka Hyun Park, Hoyoung Yoon, and U Kang},
+  author    = {Junghun Kim and Ka Hyun Park and Hoyoung Yoon and U Kang},
   title     = {Domain-Aware Data Selection for Speech Classification via Meta-Reweighting},
   booktitle = {Interspeech},
   year      = {2024}
