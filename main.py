@@ -1,12 +1,18 @@
 """
-Domain-Aware Data selection for Speech Classification via Meta-Reweighting
+Domain-Aware Data Selection for Speech Classification via Meta-Reweighting (INTERSPEECH 2024)
+
+Authors:
+- Junghun Kim (bandalg97@snu.ac.kr), Seoul National University
+- Ka Hyun Park (kahyunpark@snu.ac.kr), Seoul National University
+- Hoyoung Yoon (crazy8597@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
 
 This software is free of charge under research purposes.
+
 For commercial purposes, please contact the authors.
 
--------------------------------------------------------------------------
-File: main.py
- - train the model with speech data frommulti-source domains 
+main.py
+    - train the model with speech data from multi-source domains
 """
 
 
